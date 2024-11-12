@@ -55,7 +55,7 @@ const SignInComponent = () => {
     //   image: profile.picture ? profile.picture : "",
     // });
 
-    const res = await axios.post("https://talkative-server.vercel.app/api/auth/register", {
+    const res = await axios.post("https://talkative-server-tau.vercel.app/api/auth/register", {
       name: profile.name,
       email: profile.email,
       image: profile.picture ? profile.picture : "",

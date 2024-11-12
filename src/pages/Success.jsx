@@ -34,7 +34,7 @@ const Success = () => {
       // });
 
       const res = axios.post(
-        `https://talkative-server.vercel.app/api/subscription`,
+        `https://talkative-server-tau.vercel.app/api/subscription`,
         {
           userEmail,
           plan: "monthly",
@@ -66,7 +66,7 @@ const Success = () => {
       // });
 
       const res = axios.post(
-        "https://talkative-server.vercel.app/api/subscription",
+        "https://talkative-server-tau.vercel.app/api/subscription",
         {
           userEmail,
           plan: "yearly",

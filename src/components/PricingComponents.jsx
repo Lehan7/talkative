@@ -63,7 +63,7 @@ const PricingComponents = () => {
 
     
   axios
-    .get(`https://talkative-server.vercel.app/api/subscriptions?email=${email}`)
+    .get(`https://talkative-server-tau.vercel.app/api/subscriptions?email=${email}`)
     .then((res) => {
       if (res.data.expire) {
         const subscription = res.data;
@@ -102,7 +102,7 @@ const PricingComponents = () => {
               <h1 className="text-xl font-bold text-primary mb-1">Monthly</h1>
 
               <a
-                href="https://talkative-server.vercel.app/api/subscribe?plan=monthly"
+                href="https://talkative-server-tau.vercel.app/api/subscribe?plan=monthly"
                 className="px-4 py-2 bg-secondary text-dark font-semibold rounded-md min-w-[200px] text-center"
               >
                 5$/month
@@ -113,7 +113,7 @@ const PricingComponents = () => {
               <h1 className="text-xl font-bold text-primary mb-1">Yearly</h1>
 
               <a
-                href="https://talkative-server.vercel.app/api/subscribe?plan=yearly"
+                href="https://talkative-server-tau.vercel.app/api/subscribe?plan=yearly"
                 className="px-4 py-2 bg-secondary text-dark font-semibold rounded-md min-w-[200px] text-center"
               >
                 50$/year
